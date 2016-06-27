@@ -3,11 +3,9 @@ for n in range(1, 101):
     buzz = n % 5 == 0
 
     output = ''
-    if fizz and buzz:
-        output = 'FizzBuzz'
-    elif fizz:
-        output = 'Fizz'
-    elif buzz:
-        output = 'Buzz'
+    if fizz:
+        output += 'Fizz'
+    if buzz:
+        output += 'Buzz'
 
     print(output or n)
