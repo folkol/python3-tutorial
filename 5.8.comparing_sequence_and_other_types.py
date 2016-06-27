@@ -10,4 +10,4 @@ print(([] < [5]))  # True
 print(([] < []))  # False
 print(([1, 1, 1, 1, 3] < [1, 1, 1, 1, 2, 1, 1, 1]))  # False
 
-print([] < [1])  # True, initial sub-sequences are considered smaller
+print([] < [1])  # True, initial sub-sequences are considered smalle
