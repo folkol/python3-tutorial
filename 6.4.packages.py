@@ -32,5 +32,5 @@ print('adas2', foo.lollers.foo)
 
 import sys
 sys.path.append('/tmp')
-import lollers  # re-inited, eventhough the file was imported before!
+import lollers  # re-inited, even though the file was imported before!
 print(lollers.foo)
